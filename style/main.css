@@ -1,0 +1,124 @@
+/* base do site*/
+
+:root{
+
+        --vermelho: #E50914;
+        --preto:#020202;
+
+}
+
+body {
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+}
+
+header .logo {
+    margin-left: 10px;
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    color: rgba(0,0,0, 0.0);
+    background: url(/img/logo1.jpg);
+    background-size: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover {
+    color:#fff;
+}
+
+
+/*série principal */
+
+.serie-principal {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/imgCapa3.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.serie-principal .descricao {
+
+    margin-bottom: 10px;
+    
+}
+
+.serie-principal .titulo-principal {
+    margin-top: 2%;
+    padding-bottom: 5px;;
+    margin-bottom: 15px;
+    font-size: 400%;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.botao {
+
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+    transition: .4s ease all;
+}
+
+.botao:hover {
+background-color: white;
+color: black;
+
+}
+
+.botao i {
+
+    margin-right: 8px;
+}
+
+
+.container {
+
+    margin-left: 20px;
+}
+
+.serie-principal .container {
+
+    width: 70%;
+
+}
+
+.box-filme {
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+
+}
